@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NYG Refrigeraciones</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <style>
+    :root{
+      --azul:#0b3c5d;
+      --azul-claro:#1d6fa5;
+      --gris:#f2f4f6;
+      --oscuro:#222;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Montserrat',sans-serif;
+      color:var(--oscuro);
+      background:#fff;
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    header{
+      background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url("assets/img/obra1.jpg") center/cover no-repeat;
+      color:#fff;
+      padding:80px 20px;
+      text-align:center;
+    }
+    header img{
+      max-width:180px;
+      margin-bottom:20px;
+    }
+    header h1{
+      font-size:2.2rem;
+      margin-bottom:15px;
+    }
+    header p{
+      max-width:800px;
+      margin:0 auto 30px;
+      font-size:1.05rem;
+    }
+    .btn{
+      display:inline-block;
+      padding:14px 26px;
+      background:var(--azul-claro);
+      color:#fff;
+      border-radius:4px;
+      font-weight:600;
+      margin:5px;
+    }
+    section{
+      padding:70px 20px;
+      max-width:1200px;
+      margin:auto;
+    }
+    h2{
+      text-align:center;
+      margin-bottom:40px;
+      color:var(--azul);
+    }
+
+    /* Servicios */
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:25px;
+    }
+    .service{
+      background:var(--gris);
+      padding:25px;
+      border-radius:6px;
+    }
+    .service i{
+      font-size:32px;
+      color:var(--azul-claro);
+      margin-bottom:10px;
+    }
+    .destacado{
+      border:2px solid var(--azul-claro);
+      background:#e9f4fb;
+    }
+
+    /* Galería */
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+    }
+    .gallery img, .gallery video{
+      width:100%;
+      border-radius:6px;
+    }
+
+    /* Contacto */
+    .contact{
+      text-align:center;
+    }
+    .contact a{
+      display:block;
+      margin:10px 0;
+      font-weight:500;
+    }
+
+    footer{
+      background:#111;
+      color:#ccc;
+      text-align:center;
+      padding:20px;
+      font-size:.9rem;
+    }
+
+    @media(max-width:600px){
+      header h1{font-size:1.6rem}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="assets/img/logo.png" alt="NYG Refrigeraciones">
+  <h1>Servicio técnico en refrigeración comercial e industrial</h1>
+  <p>
+    En NYG Refrigeraciones brindamos soluciones integrales en refrigeración comercial e industrial.
+    Contamos con más de 20 años de experiencia en la instalación, mantenimiento preventivo y correctivo
+    de sistemas de frío alimentario, garantizando eficiencia, seguridad y alto rendimiento.
+  </p>
+  <a class="btn" href="https://wa.me/5491128673181" target="_blank">
+    <i class="fab fa-whatsapp"></i> Escribinos por WhatsApp
+  </a>
+  <a class="btn" href="https://www.instagram.com/nyg_refrigeracion" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+</header>
+
+<section>
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="service">
+      <i class="fas fa-snowflake"></i>
+      <h3>Montaje de cámaras frigoríficas</h3>
+      <p>Instalación de cámaras de baja y media temperatura con terminaciones profesionales y puesta en marcha segura.</p>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-industry"></i>
+      <h3>Centrales de frío alimentario</h3>
+      <p>Diseño, instalación y mantenimiento de sistemas centralizados para grandes instalaciones.</p>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-cogs"></i>
+      <h3>Unidades condensadoras</h3>
+      <p>Venta, instalación y mantenimiento de equipos de alto rendimiento y eficiencia energética.</p>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-layer-group"></i>
+      <h3>Venta de paneles</h3>
+      <p>Paneles de alta calidad para cámaras frigoríficas, con excelente aislación térmica.</p>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-store"></i>
+      <h3>Instalación de exhibidoras</h3>
+      <p>Montaje y puesta en marcha de exhibidoras comerciales para optimizar conservación y presentación.</p>
+    </div>
+
+    <div class="service destacado">
+      <i class="fas fa-tools"></i>
+      <h3>Mantenimiento preventivo y correctivo</h3>
+      <p>Servicio clave para evitar fallas, reducir costos y prolongar la vida útil de los equipos.</p>
+      <p><strong>Consultá presupuestos por montajes en altura y montajes en seco.</strong></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Obras realizadas</h2>
+  <div class="gallery">
+    <img src="assets/img/obra1.jpg" alt="Obra NYG">
+    <img src="assets/img/obra2.jpg" alt="Obra NYG">
+    <img src="assets/img/obra3.jpg" alt="Obra NYG">
+    <img src="assets/img/obra4.jpg" alt="Obra NYG">
+    <img src="assets/img/obra5.jpg" alt="Obra NYG">
+    <video src="assets/video/obra.mp4" controls></video>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contacto</h2>
+  <a href="https://wa.me/5491128673181" target="_blank">
+    <i class="fab fa-whatsapp"></i> +54 9 11 2867-3181
+  </a>
+  <a href="mailto:nygrefrigeracion@gmail.com">
+    <i class="fas fa-envelope"></i> nygrefrigeracion@gmail.com
+  </a>
+  <a href="mailto:gabrielhuetagoyena@gmail.com">
+    <i class="fas fa-envelope"></i> gabrielhuetagoyena@gmail.com
+  </a>
+  <p>Tortuguitas, Buenos Aires</p>
+</section>
+
+<footer>
+  © NYG Refrigeraciones – Todos los derechos reservados
+</footer>
+
+</body>
+</html>
